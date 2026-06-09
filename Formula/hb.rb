@@ -5,11 +5,15 @@ class Hb < Formula
   sha256 "147157b6fa47189028306b305497b548e17c6a80654d93c56df674c0ece4b6e5"
   license ""
 
-  depends_on xcode: ["16.3", :build]
+  depends_on xcode: ["26.2", :build]
   uses_from_macos "swift" => :build
 
   on_macos do
-    depends_on macos: :sequoia
+    depends_on macos: :tahoe
+  end
+
+  on_linux do
+    depends_on curl
   end
 
   def install
