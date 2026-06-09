@@ -5,7 +5,7 @@ class SwiftMustacheCli < Formula
   sha256 "8cb611df7ae297ed50c2f6e4d478bacbed83f593ae5d52d781d8ab67649a9b42"
   license "Apache-2.0"
 
-  depends_on xcode: ["26.0", :build]
+  depends_on xcode: ["16.3", :build]
   uses_from_macos "swift" => :build
 
   on_macos do
