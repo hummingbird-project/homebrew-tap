@@ -1,5 +1,5 @@
 class SwiftMustacheCli < Formula
-  desc "Command line tool for rendering Mustache templates"
+  desc "Command-line tool for rendering Mustache templates"
   homepage "https://github.com/hummingbird-project/swift-mustache-cli"
   url "https://github.com/hummingbird-project/swift-mustache-cli/archive/refs/tags/0.2.1.tar.gz"
   sha256 "8cb611df7ae297ed50c2f6e4d478bacbed83f593ae5d52d781d8ab67649a9b42"
