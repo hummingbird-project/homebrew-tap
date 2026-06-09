@@ -13,7 +13,7 @@ class Hb < Formula
   end
 
   on_linux do
-    depends_on curl
+    depends_on "curl"
   end
 
   def install
