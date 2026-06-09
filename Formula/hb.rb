@@ -1,9 +1,9 @@
 class Hb < Formula
   desc "Command-line for Hummingbird server framework"
   homepage "https://hummingbird.codes"
-  url "https://github.com/hummingbird-project/hb/archive/refs/tags/0.1.0.tar.gz"
-  sha256 "147157b6fa47189028306b305497b548e17c6a80654d93c56df674c0ece4b6e5"
-  license ""
+  url "https://github.com/hummingbird-project/hb/archive/refs/tags/0.1.2.tar.gz"
+  sha256 "f97be5b7d7a1c08e54a4e09c492fe2bcda7421ead537493a7cbe00d0b6179cc3"
+  license "Apache-2.0"
 
   depends_on xcode: ["26.2", :build]
   uses_from_macos "swift" => :build
