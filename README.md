@@ -1,5 +1,9 @@
 # Hummingbird-project Tap
 
+## Formulae
+- hb: Hummingbird server framework commandline tool
+- swift-mustache-cli: Commandline tool for rendering mustache templates
+ 
 ## How do I install these formulae?
 
 `brew install hummingbird-project/tap/<formula>`
