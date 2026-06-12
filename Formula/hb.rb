@@ -18,10 +18,6 @@ class Hb < Formula
     depends_on macos: :tahoe
   end
 
-  on_linux do
-    depends_on "curl"
-  end
-
   def install
     args = if OS.mac?
       ["--disable-sandbox"]
