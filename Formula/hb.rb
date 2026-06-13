@@ -24,7 +24,7 @@ class Hb < Formula
     else
       ["--static-swift-stdlib"]
     end
-    system "swift", "build", *args, "-c", "release", "-Xswiftc", "-cross-module-optimization"
+    system "swift", "build", *args, "-c", "release"
     bin.install ".build/release/hb"
   end
 
