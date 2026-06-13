@@ -22,7 +22,7 @@ class Hb < Formula
     args = if OS.mac?
       ["--disable-sandbox"]
     else
-      ["--static-swift-stdlib", "-Xlinker", "-L/home/linuxbrew/.linuxbrew/lib"]
+      ["--static-swift-stdlib"]
     end
     system "swift", "build", *args, "-c", "release", "-Xswiftc", "-cross-module-optimization"
     bin.install ".build/release/hb"
