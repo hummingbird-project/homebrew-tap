@@ -6,10 +6,10 @@ class Hb < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/hummingbird-project/homebrew-tap/releases/download/hb-0.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "ef9fed74fd56cafe1936db8ea6cbd19d2f9b0d93b9db5ea562ed723466232108"
-    sha256 cellar: :any_skip_relocation, tahoe:        "7d286a95725477671fd0f43e135f43b19f9a1ea4104695bf1b8b1726074400e8"
-    sha256 cellar: :any,                 x86_64_linux: "45625e6a8921168d8c6d0544faaf9f77f60f6c56096fc5d5a4ca9b2f12e126ed"
+    root_url "https://github.com/hummingbird-project/homebrew-tap/releases/download/hb-0.3.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "c77b4270c8de70e4d2df0db526d75aae1eea76b0a4c5cebd407dc65467a95ac9"
+    sha256 cellar: :any_skip_relocation, tahoe:        "cfe9d57a885a6a531d77954fd169daa0a9d6818bae694d2dd60133d8e65f6bd9"
+    sha256 cellar: :any,                 x86_64_linux: "6957a3d05454fc71c7d158ed98ef31e41530e2cb023d7e876afe87e9ff181d67"
   end
 
   depends_on xcode: ["26.2", :build]
