@@ -16,7 +16,7 @@ class Hb < Formula
   uses_from_macos "swift" => :build
 
   on_macos do
-    depends_on macos: :tahoe
+    depends_on macos: :sequoia
   end
 
   def install
