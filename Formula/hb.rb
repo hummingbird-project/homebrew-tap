@@ -30,7 +30,7 @@ class Hb < Formula
   end
 
   test do
-    system bin/"hb", "init", "--default", "my-project"
+    system bin/"hb", "init", "--answer", "name=my-project", "my-project"
     assert_path_exists testpath/"my-project/Package.swift"
   end
 end
