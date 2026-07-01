@@ -1,8 +1,8 @@
 class Hb < Formula
   desc "Command-line for Hummingbird server framework"
   homepage "https://hummingbird.codes"
-  url "https://github.com/hummingbird-project/hb/archive/refs/tags/0.4.0.tar.gz"
-  sha256 "ee8c38a310e0061df57a6f7fe1b78f2ad04f0d20b3deb1d9dbf19d3dbea999e4"
+  url "https://github.com/hummingbird-project/hb/archive/refs/tags/0.5.0.tar.gz"
+  sha256 "bb46a83796b93be59de09b6f9f44a5cdcff334c965371f10cd8f28cefe62ff0e"
   license "Apache-2.0"
 
   bottle do
